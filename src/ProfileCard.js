@@ -1,9 +1,11 @@
 import React from "react";
 
+
 function ProfileCard() {
-  return (
+  return  <>
     <div>Profile Card</div>
-  )
+    </>
+  
 }
 
 export default ProfileCard;
