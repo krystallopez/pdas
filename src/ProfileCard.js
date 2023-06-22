@@ -2,7 +2,7 @@ import React from "react";
 
 // creates ProfileCard info, passing props into the function
 // destructured props passed in as argument in function
-function ProfileCard({ title, handle, image }) {
+function ProfileCard({ title, handle, image, description}) {
   return (
     <>
       <div className="card">
@@ -17,6 +17,7 @@ function ProfileCard({ title, handle, image }) {
             <p className="subtitle is-6">Handle is: {handle}</p>
           </div>
         </div>
+        <div className="content">{description}</div>
       </div>
     </>
   );
